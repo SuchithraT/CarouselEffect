@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CarouselPoc</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="done">DONE</string>
+    <string name="slide_1_title">Welcome to the new Straight2Bank</string>
+    <string name="slide_1_desc">We aim to make your complex work free simple.</string>
+
+    <string name="slide_2_title">Enjoy Convenience Securely</string>
+    <string name="slide_2_desc">Manage transactions securely and easily with biometric.</string>
+
+
+    <string name="slide_3_title">Be in the know</string>
+    <string name="slide_3_desc">Access your account balances and transactions on the go.</string>
+
+    <string name="slide_4_title">Stay on track</string>
+    <string name="slide_4_desc">keep track of transaction status with just a tap.</string>
+
+    <string name="slide_5_title">Stay efficient on the go</string>
+    <string name="slide_5_desc">Approve your payments anytime,anywhere.</string>
+
+</resources>

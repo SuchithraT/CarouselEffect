@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+
+    <RelativeLayout
+        android:id="@+id/rl_images"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/blob4_green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/blob" />
+
+        <ImageView
+            android:id="@+id/blob4_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/blue_blob" />
+
+        <ImageView
+            android:id="@+id/blob4_mobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/mobile_1" />
+
+        <ImageView
+            android:id="@+id/blob4_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:background="@null"
+            android:src="@drawable/card" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/slide4_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_images"
+        android:layout_marginTop="10dp"
+        android:maxLines="2"
+        android:text="@string/slide_4_title"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/slide_title"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/slide4_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slide4_title"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/slide_4_desc"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/slide_desc" />
+
+
+
+
+</RelativeLayout>
